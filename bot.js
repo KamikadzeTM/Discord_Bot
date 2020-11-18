@@ -36,6 +36,7 @@ client.on('message', (message)=>{
     }
 })
 
+// test
 client.on('message', (message)=>{
     if(message.author.bot) return;
     if(message.content.startsWith(PREFIX)){
